@@ -1,0 +1,5 @@
+pandas
+tqdm
+dateparser
+langchain
+ollama

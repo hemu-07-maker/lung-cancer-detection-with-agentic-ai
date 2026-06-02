@@ -1,0 +1,5118 @@
+[
+  {
+    "patient_id": 1,
+    "risk_score": 0.1517,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "15%"
+      },
+      {
+        "gene": "ATM",
+        "match": "15%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "15%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "15%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "15%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "15%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "15%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "15%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "15%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "15%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "15%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "15%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "15%"
+      },
+      {
+        "gene": "FN1",
+        "match": "15%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "15%"
+      },
+      {
+        "gene": "MET",
+        "match": "15%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "15%"
+      },
+      {
+        "gene": "BGN",
+        "match": "15%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "15%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "15%"
+      },
+      {
+        "gene": "ALK",
+        "match": "15%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "15%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "15%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "15%"
+      },
+      {
+        "gene": "RET",
+        "match": "15%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "15%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "15%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "15%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "15%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "15%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "15%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "15%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "15%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "15%"
+      },
+      {
+        "gene": "LPP",
+        "match": "15%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "15%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "15%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "15%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "15%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "15%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "15%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "15%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "15%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "15%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "15%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "15%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "14%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "14%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "14%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "14%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "13%"
+      }
+    ]
+  },
+  {
+    "patient_id": 3,
+    "risk_score": 0.4864,
+    "matched_genes": [
+      {
+        "gene": "KRAS",
+        "match": "50%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "50%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "50%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "50%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "50%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "50%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "50%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "50%"
+      },
+      {
+        "gene": "FN1",
+        "match": "50%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "50%"
+      },
+      {
+        "gene": "MET",
+        "match": "50%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "50%"
+      },
+      {
+        "gene": "BGN",
+        "match": "50%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "50%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "50%"
+      },
+      {
+        "gene": "ALK",
+        "match": "50%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "50%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "50%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "50%"
+      },
+      {
+        "gene": "RET",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "50%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "50%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "50%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "50%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "50%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "50%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "50%"
+      },
+      {
+        "gene": "LPP",
+        "match": "50%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "50%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "50%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "50%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "50%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "50%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "50%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "50%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "50%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "50%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "50%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "40%"
+      },
+      {
+        "gene": "TP53",
+        "match": "38%"
+      },
+      {
+        "gene": "ATM",
+        "match": "38%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "30%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "30%"
+      }
+    ]
+  },
+  {
+    "patient_id": 4,
+    "risk_score": 0.6125,
+    "matched_genes": [
+      {
+        "gene": "MLL3",
+        "match": "65%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "65%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "65%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "65%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "65%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "65%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "65%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "65%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "65%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "65%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "65%"
+      },
+      {
+        "gene": "FN1",
+        "match": "65%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "65%"
+      },
+      {
+        "gene": "MET",
+        "match": "65%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "65%"
+      },
+      {
+        "gene": "BGN",
+        "match": "65%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "65%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "65%"
+      },
+      {
+        "gene": "ALK",
+        "match": "65%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "65%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "65%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "65%"
+      },
+      {
+        "gene": "RET",
+        "match": "65%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "65%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "65%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "65%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "65%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "65%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "65%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "65%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "65%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "65%"
+      },
+      {
+        "gene": "LPP",
+        "match": "65%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "65%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "65%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "65%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "65%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "65%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "65%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "65%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "65%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "65%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "65%"
+      },
+      {
+        "gene": "TP53",
+        "match": "59%"
+      },
+      {
+        "gene": "ATM",
+        "match": "59%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "47%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "40%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "40%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "40%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "36%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "36%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "29%"
+      }
+    ]
+  },
+  {
+    "patient_id": 5,
+    "risk_score": 0.439,
+    "matched_genes": [
+      {
+        "gene": "SMAD4",
+        "match": "49%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "45%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "44%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "44%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "44%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "44%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "44%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "44%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "44%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "44%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "44%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "44%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "44%"
+      },
+      {
+        "gene": "FN1",
+        "match": "44%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "44%"
+      },
+      {
+        "gene": "MET",
+        "match": "44%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "44%"
+      },
+      {
+        "gene": "BGN",
+        "match": "44%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "44%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "44%"
+      },
+      {
+        "gene": "ALK",
+        "match": "44%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "44%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "44%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "44%"
+      },
+      {
+        "gene": "RET",
+        "match": "44%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "44%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "44%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "44%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "44%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "44%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "44%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "44%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "44%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "44%"
+      },
+      {
+        "gene": "LPP",
+        "match": "44%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "44%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "44%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "44%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "44%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "44%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "44%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "44%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "44%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "44%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "44%"
+      },
+      {
+        "gene": "ATM",
+        "match": "43%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "42%"
+      },
+      {
+        "gene": "TP53",
+        "match": "41%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "41%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "39%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "30%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "29%"
+      }
+    ]
+  },
+  {
+    "patient_id": 6,
+    "risk_score": 0.3644,
+    "matched_genes": [
+      {
+        "gene": "CDKN2A",
+        "match": "39%"
+      },
+      {
+        "gene": "ATM",
+        "match": "39%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "37%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "37%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "37%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "37%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "37%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "37%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "37%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "37%"
+      },
+      {
+        "gene": "FN1",
+        "match": "37%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "37%"
+      },
+      {
+        "gene": "MET",
+        "match": "37%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "37%"
+      },
+      {
+        "gene": "BGN",
+        "match": "37%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "37%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "37%"
+      },
+      {
+        "gene": "ALK",
+        "match": "37%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "37%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "37%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "37%"
+      },
+      {
+        "gene": "RET",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "37%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "37%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "37%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "37%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "37%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "37%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "37%"
+      },
+      {
+        "gene": "LPP",
+        "match": "37%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "37%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "37%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "37%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "37%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "37%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "37%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "37%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "37%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "37%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "37%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "34%"
+      },
+      {
+        "gene": "TP53",
+        "match": "32%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "30%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "29%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "23%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "21%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "20%"
+      }
+    ]
+  },
+  {
+    "patient_id": 9,
+    "risk_score": 0.3751,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "38%"
+      },
+      {
+        "gene": "ATM",
+        "match": "38%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "38%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "38%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "38%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "38%"
+      },
+      {
+        "gene": "FN1",
+        "match": "38%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "38%"
+      },
+      {
+        "gene": "MET",
+        "match": "38%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "38%"
+      },
+      {
+        "gene": "BGN",
+        "match": "38%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "38%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "38%"
+      },
+      {
+        "gene": "ALK",
+        "match": "38%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "38%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "38%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "38%"
+      },
+      {
+        "gene": "RET",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "38%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "38%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "38%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "38%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "38%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "38%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "38%"
+      },
+      {
+        "gene": "LPP",
+        "match": "38%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "38%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "38%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "38%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "38%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "38%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "38%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "38%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "38%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "38%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "38%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "36%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "36%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "36%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "36%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "28%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "24%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "24%"
+      }
+    ]
+  },
+  {
+    "patient_id": 10,
+    "risk_score": 0.4672,
+    "matched_genes": [
+      {
+        "gene": "MLL3",
+        "match": "50%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "50%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "50%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "50%"
+      },
+      {
+        "gene": "FN1",
+        "match": "50%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "50%"
+      },
+      {
+        "gene": "MET",
+        "match": "50%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "50%"
+      },
+      {
+        "gene": "BGN",
+        "match": "50%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "50%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "50%"
+      },
+      {
+        "gene": "ALK",
+        "match": "50%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "50%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "50%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "50%"
+      },
+      {
+        "gene": "RET",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "50%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "50%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "50%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "50%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "50%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "50%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "50%"
+      },
+      {
+        "gene": "LPP",
+        "match": "50%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "50%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "50%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "50%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "50%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "50%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "50%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "50%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "50%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "50%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "50%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "39%"
+      },
+      {
+        "gene": "ATM",
+        "match": "39%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "39%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "35%"
+      },
+      {
+        "gene": "TP53",
+        "match": "23%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "18%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "17%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "17%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "17%"
+      }
+    ]
+  },
+  {
+    "patient_id": 11,
+    "risk_score": 0.6589,
+    "matched_genes": [
+      {
+        "gene": "MLL3",
+        "match": "69%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "69%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "69%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "69%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "69%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "69%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "69%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "69%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "69%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "69%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "69%"
+      },
+      {
+        "gene": "FN1",
+        "match": "69%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "69%"
+      },
+      {
+        "gene": "MET",
+        "match": "69%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "69%"
+      },
+      {
+        "gene": "BGN",
+        "match": "69%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "69%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "69%"
+      },
+      {
+        "gene": "ALK",
+        "match": "69%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "69%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "69%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "69%"
+      },
+      {
+        "gene": "RET",
+        "match": "69%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "69%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "69%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "69%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "69%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "69%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "69%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "69%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "69%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "69%"
+      },
+      {
+        "gene": "LPP",
+        "match": "69%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "69%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "69%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "69%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "69%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "69%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "69%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "69%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "69%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "69%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "69%"
+      },
+      {
+        "gene": "ATM",
+        "match": "67%"
+      },
+      {
+        "gene": "TP53",
+        "match": "61%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "57%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "52%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "47%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "41%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "39%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "37%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "37%"
+      }
+    ]
+  },
+  {
+    "patient_id": 12,
+    "risk_score": 0.3656,
+    "matched_genes": [
+      {
+        "gene": "PALB2",
+        "match": "39%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "37%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "37%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "37%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "37%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "37%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "37%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "37%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "37%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "37%"
+      },
+      {
+        "gene": "FN1",
+        "match": "37%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "37%"
+      },
+      {
+        "gene": "MET",
+        "match": "37%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "37%"
+      },
+      {
+        "gene": "BGN",
+        "match": "37%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "37%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "37%"
+      },
+      {
+        "gene": "ALK",
+        "match": "37%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "37%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "37%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "37%"
+      },
+      {
+        "gene": "RET",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "37%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "37%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "37%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "37%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "37%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "37%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "37%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "37%"
+      },
+      {
+        "gene": "LPP",
+        "match": "37%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "37%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "37%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "37%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "37%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "37%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "37%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "37%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "37%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "37%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "37%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "36%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "35%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "35%"
+      },
+      {
+        "gene": "ATM",
+        "match": "35%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "32%"
+      },
+      {
+        "gene": "TP53",
+        "match": "32%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "29%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "25%"
+      }
+    ]
+  },
+  {
+    "patient_id": 14,
+    "risk_score": 0.4123,
+    "matched_genes": [
+      {
+        "gene": "PRSS1",
+        "match": "100%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "70%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "70%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "69%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "38%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "38%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "38%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "38%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "38%"
+      },
+      {
+        "gene": "FN1",
+        "match": "38%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "38%"
+      },
+      {
+        "gene": "MET",
+        "match": "38%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "38%"
+      },
+      {
+        "gene": "BGN",
+        "match": "38%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "38%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "38%"
+      },
+      {
+        "gene": "ALK",
+        "match": "38%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "38%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "38%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "38%"
+      },
+      {
+        "gene": "RET",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "38%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "38%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "38%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "38%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "38%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "38%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "38%"
+      },
+      {
+        "gene": "LPP",
+        "match": "38%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "38%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "38%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "38%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "38%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "38%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "38%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "38%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "38%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "38%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "38%"
+      },
+      {
+        "gene": "TP53",
+        "match": "38%"
+      },
+      {
+        "gene": "ATM",
+        "match": "37%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "35%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "33%"
+      }
+    ]
+  },
+  {
+    "patient_id": 15,
+    "risk_score": 0.3817,
+    "matched_genes": [
+      {
+        "gene": "PRSS1",
+        "match": "39%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "39%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "39%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "38%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "38%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "38%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "38%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "38%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "38%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "38%"
+      },
+      {
+        "gene": "FN1",
+        "match": "38%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "38%"
+      },
+      {
+        "gene": "MET",
+        "match": "38%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "38%"
+      },
+      {
+        "gene": "BGN",
+        "match": "38%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "38%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "38%"
+      },
+      {
+        "gene": "ALK",
+        "match": "38%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "38%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "38%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "38%"
+      },
+      {
+        "gene": "RET",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "38%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "38%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "38%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "38%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "38%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "38%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "38%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "38%"
+      },
+      {
+        "gene": "LPP",
+        "match": "38%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "38%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "38%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "38%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "38%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "38%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "38%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "38%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "38%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "38%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "38%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "36%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "34%"
+      },
+      {
+        "gene": "ATM",
+        "match": "33%"
+      },
+      {
+        "gene": "TP53",
+        "match": "33%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "27%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "25%"
+      }
+    ]
+  },
+  {
+    "patient_id": 17,
+    "risk_score": 0.349,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "44%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "44%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "36%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "36%"
+      },
+      {
+        "gene": "ATM",
+        "match": "36%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "34%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "34%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "34%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "34%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "34%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "34%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "34%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "34%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "34%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "34%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "34%"
+      },
+      {
+        "gene": "FN1",
+        "match": "34%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "34%"
+      },
+      {
+        "gene": "MET",
+        "match": "34%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "34%"
+      },
+      {
+        "gene": "BGN",
+        "match": "34%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "34%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "34%"
+      },
+      {
+        "gene": "ALK",
+        "match": "34%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "34%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "34%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "34%"
+      },
+      {
+        "gene": "RET",
+        "match": "34%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "34%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "34%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "34%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "34%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "34%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "34%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "34%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "34%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "34%"
+      },
+      {
+        "gene": "LPP",
+        "match": "34%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "34%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "34%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "34%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "34%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "34%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "34%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "34%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "34%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "34%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "34%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "34%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "31%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "25%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "25%"
+      }
+    ]
+  },
+  {
+    "patient_id": 20,
+    "risk_score": 0.392,
+    "matched_genes": [
+      {
+        "gene": "MLL3",
+        "match": "40%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "40%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "40%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "40%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "40%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "40%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "40%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "40%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "40%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "40%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "40%"
+      },
+      {
+        "gene": "FN1",
+        "match": "40%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "40%"
+      },
+      {
+        "gene": "MET",
+        "match": "40%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "40%"
+      },
+      {
+        "gene": "BGN",
+        "match": "40%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "40%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "40%"
+      },
+      {
+        "gene": "ALK",
+        "match": "40%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "40%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "40%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "40%"
+      },
+      {
+        "gene": "RET",
+        "match": "40%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "40%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "40%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "40%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "40%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "40%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "40%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "40%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "40%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "40%"
+      },
+      {
+        "gene": "LPP",
+        "match": "40%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "40%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "40%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "40%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "40%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "40%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "40%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "40%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "40%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "40%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "40%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "39%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "37%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "36%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "35%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "35%"
+      },
+      {
+        "gene": "ATM",
+        "match": "32%"
+      },
+      {
+        "gene": "TP53",
+        "match": "31%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "28%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "27%"
+      }
+    ]
+  },
+  {
+    "patient_id": 78,
+    "risk_score": 0.4675,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "50%"
+      },
+      {
+        "gene": "ATM",
+        "match": "50%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "50%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "50%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "50%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "50%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "50%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "50%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "50%"
+      },
+      {
+        "gene": "FN1",
+        "match": "50%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "50%"
+      },
+      {
+        "gene": "MET",
+        "match": "50%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "50%"
+      },
+      {
+        "gene": "BGN",
+        "match": "50%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "50%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "50%"
+      },
+      {
+        "gene": "ALK",
+        "match": "50%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "50%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "50%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "50%"
+      },
+      {
+        "gene": "RET",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "50%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "50%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "50%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "50%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "50%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "50%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "50%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "50%"
+      },
+      {
+        "gene": "LPP",
+        "match": "50%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "50%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "50%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "50%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "50%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "50%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "50%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "50%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "50%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "50%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "50%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "39%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "20%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "19%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "17%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "17%"
+      }
+    ]
+  },
+  {
+    "patient_id": 45,
+    "risk_score": 0.457,
+    "matched_genes": [
+      {
+        "gene": "CDKN2A",
+        "match": "55%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "52%"
+      },
+      {
+        "gene": "TP53",
+        "match": "49%"
+      },
+      {
+        "gene": "ATM",
+        "match": "48%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "48%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "47%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "45%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "45%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "45%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "45%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "45%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "45%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "45%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "45%"
+      },
+      {
+        "gene": "FN1",
+        "match": "45%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "45%"
+      },
+      {
+        "gene": "MET",
+        "match": "45%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "45%"
+      },
+      {
+        "gene": "BGN",
+        "match": "45%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "45%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "45%"
+      },
+      {
+        "gene": "ALK",
+        "match": "45%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "45%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "45%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "45%"
+      },
+      {
+        "gene": "RET",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "45%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "45%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "45%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "45%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "45%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "45%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "45%"
+      },
+      {
+        "gene": "LPP",
+        "match": "45%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "45%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "45%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "45%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "45%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "45%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "45%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "45%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "45%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "45%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "45%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "39%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "33%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "28%"
+      }
+    ]
+  },
+  {
+    "patient_id": 233,
+    "risk_score": 0.2309,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "23%"
+      },
+      {
+        "gene": "ATM",
+        "match": "23%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "23%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "23%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "23%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "23%"
+      },
+      {
+        "gene": "FN1",
+        "match": "23%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "23%"
+      },
+      {
+        "gene": "MET",
+        "match": "23%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "23%"
+      },
+      {
+        "gene": "BGN",
+        "match": "23%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "23%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "23%"
+      },
+      {
+        "gene": "ALK",
+        "match": "23%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "23%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "23%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "23%"
+      },
+      {
+        "gene": "RET",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "23%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "23%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "23%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "23%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "23%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "23%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "23%"
+      },
+      {
+        "gene": "LPP",
+        "match": "23%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "23%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "23%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "23%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "23%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "23%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "23%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "23%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "23%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "23%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "23%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "19%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "19%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "11%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "10%"
+      }
+    ]
+  },
+  {
+    "patient_id": 150,
+    "risk_score": 0.4605,
+    "matched_genes": [
+      {
+        "gene": "PRSS1",
+        "match": "63%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "58%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "46%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "46%"
+      },
+      {
+        "gene": "TP53",
+        "match": "46%"
+      },
+      {
+        "gene": "ATM",
+        "match": "46%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "46%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "46%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "46%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "46%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "46%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "46%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "46%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "46%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "46%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "46%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "46%"
+      },
+      {
+        "gene": "FN1",
+        "match": "46%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "46%"
+      },
+      {
+        "gene": "MET",
+        "match": "46%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "46%"
+      },
+      {
+        "gene": "BGN",
+        "match": "46%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "46%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "46%"
+      },
+      {
+        "gene": "ALK",
+        "match": "46%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "46%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "46%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "46%"
+      },
+      {
+        "gene": "RET",
+        "match": "46%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "46%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "46%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "46%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "46%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "46%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "46%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "46%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "46%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "46%"
+      },
+      {
+        "gene": "LPP",
+        "match": "46%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "46%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "46%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "46%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "46%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "46%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "46%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "46%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "46%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "46%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "46%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "31%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "25%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "21%"
+      }
+    ]
+  },
+  {
+    "patient_id": 87,
+    "risk_score": 0.2572,
+    "matched_genes": [
+      {
+        "gene": "ATM",
+        "match": "27%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "26%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "26%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "26%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "26%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "26%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "26%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "26%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "26%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "26%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "26%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "26%"
+      },
+      {
+        "gene": "FN1",
+        "match": "26%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "26%"
+      },
+      {
+        "gene": "MET",
+        "match": "26%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "26%"
+      },
+      {
+        "gene": "BGN",
+        "match": "26%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "26%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "26%"
+      },
+      {
+        "gene": "ALK",
+        "match": "26%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "26%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "26%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "26%"
+      },
+      {
+        "gene": "RET",
+        "match": "26%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "26%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "26%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "26%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "26%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "26%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "26%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "26%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "26%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "26%"
+      },
+      {
+        "gene": "LPP",
+        "match": "26%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "26%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "26%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "26%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "26%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "26%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "26%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "26%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "26%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "26%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "26%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "26%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "22%"
+      },
+      {
+        "gene": "TP53",
+        "match": "22%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "20%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "20%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "16%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "16%"
+      }
+    ]
+  },
+  {
+    "patient_id": 60,
+    "risk_score": 0.4245,
+    "matched_genes": [
+      {
+        "gene": "MLL3",
+        "match": "45%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "45%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "45%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "45%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "45%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "45%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "45%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "45%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "45%"
+      },
+      {
+        "gene": "FN1",
+        "match": "45%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "45%"
+      },
+      {
+        "gene": "MET",
+        "match": "45%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "45%"
+      },
+      {
+        "gene": "BGN",
+        "match": "45%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "45%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "45%"
+      },
+      {
+        "gene": "ALK",
+        "match": "45%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "45%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "45%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "45%"
+      },
+      {
+        "gene": "RET",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "45%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "45%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "45%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "45%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "45%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "45%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "45%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "45%"
+      },
+      {
+        "gene": "LPP",
+        "match": "45%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "45%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "45%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "45%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "45%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "45%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "45%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "45%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "45%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "45%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "45%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "37%"
+      },
+      {
+        "gene": "ATM",
+        "match": "37%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "34%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "34%"
+      },
+      {
+        "gene": "TP53",
+        "match": "24%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "20%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "13%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "13%"
+      }
+    ]
+  },
+  {
+    "patient_id": 209,
+    "risk_score": 0.4187,
+    "matched_genes": [
+      {
+        "gene": "KRAS",
+        "match": "43%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "43%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "42%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "42%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "42%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "42%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "42%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "42%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "42%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "42%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "42%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "42%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "42%"
+      },
+      {
+        "gene": "FN1",
+        "match": "42%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "42%"
+      },
+      {
+        "gene": "MET",
+        "match": "42%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "42%"
+      },
+      {
+        "gene": "BGN",
+        "match": "42%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "42%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "42%"
+      },
+      {
+        "gene": "ALK",
+        "match": "42%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "42%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "42%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "42%"
+      },
+      {
+        "gene": "RET",
+        "match": "42%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "42%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "42%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "42%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "42%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "42%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "42%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "42%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "42%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "42%"
+      },
+      {
+        "gene": "LPP",
+        "match": "42%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "42%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "42%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "42%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "42%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "42%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "42%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "42%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "42%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "42%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "42%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "41%"
+      },
+      {
+        "gene": "ATM",
+        "match": "40%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "39%"
+      },
+      {
+        "gene": "TP53",
+        "match": "36%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "36%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "34%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "29%"
+      }
+    ]
+  },
+  {
+    "patient_id": 190,
+    "risk_score": 0.6415,
+    "matched_genes": [
+      {
+        "gene": "ATM",
+        "match": "70%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "67%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "67%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "67%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "67%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "67%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "67%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "67%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "67%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "67%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "67%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "67%"
+      },
+      {
+        "gene": "FN1",
+        "match": "67%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "67%"
+      },
+      {
+        "gene": "MET",
+        "match": "67%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "67%"
+      },
+      {
+        "gene": "BGN",
+        "match": "67%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "67%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "67%"
+      },
+      {
+        "gene": "ALK",
+        "match": "67%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "67%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "67%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "67%"
+      },
+      {
+        "gene": "RET",
+        "match": "67%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "67%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "67%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "67%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "67%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "67%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "67%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "67%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "67%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "67%"
+      },
+      {
+        "gene": "LPP",
+        "match": "67%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "67%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "67%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "67%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "67%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "67%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "67%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "67%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "67%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "67%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "67%"
+      },
+      {
+        "gene": "TP53",
+        "match": "66%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "63%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "49%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "45%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "36%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "32%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "31%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "27%"
+      }
+    ]
+  },
+  {
+    "patient_id": 142,
+    "risk_score": 0.2309,
+    "matched_genes": [
+      {
+        "gene": "TP53",
+        "match": "23%"
+      },
+      {
+        "gene": "ATM",
+        "match": "23%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "23%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "23%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "23%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "23%"
+      },
+      {
+        "gene": "FN1",
+        "match": "23%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "23%"
+      },
+      {
+        "gene": "MET",
+        "match": "23%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "23%"
+      },
+      {
+        "gene": "BGN",
+        "match": "23%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "23%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "23%"
+      },
+      {
+        "gene": "ALK",
+        "match": "23%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "23%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "23%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "23%"
+      },
+      {
+        "gene": "RET",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "23%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "23%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "23%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "23%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "23%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "23%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "23%"
+      },
+      {
+        "gene": "LPP",
+        "match": "23%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "23%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "23%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "23%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "23%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "23%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "23%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "23%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "23%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "23%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "23%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "19%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "19%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "19%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "11%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "10%"
+      }
+    ]
+  },
+  {
+    "patient_id": 63,
+    "risk_score": 0.6759,
+    "matched_genes": [
+      {
+        "gene": "ATM",
+        "match": "74%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "71%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "71%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "71%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "71%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "71%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "71%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "71%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "71%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "71%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "71%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "71%"
+      },
+      {
+        "gene": "FN1",
+        "match": "71%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "71%"
+      },
+      {
+        "gene": "MET",
+        "match": "71%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "71%"
+      },
+      {
+        "gene": "BGN",
+        "match": "71%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "71%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "71%"
+      },
+      {
+        "gene": "ALK",
+        "match": "71%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "71%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "71%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "71%"
+      },
+      {
+        "gene": "RET",
+        "match": "71%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "71%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "71%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "71%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "71%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "71%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "71%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "71%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "71%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "71%"
+      },
+      {
+        "gene": "LPP",
+        "match": "71%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "71%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "71%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "71%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "71%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "71%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "71%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "71%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "71%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "71%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "71%"
+      },
+      {
+        "gene": "CDKN2A",
+        "match": "68%"
+      },
+      {
+        "gene": "TP53",
+        "match": "62%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "56%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "49%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "32%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "31%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "30%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "28%"
+      }
+    ]
+  },
+  {
+    "patient_id": 89,
+    "risk_score": 0.2369,
+    "matched_genes": [
+      {
+        "gene": "CDKN2A",
+        "match": "35%"
+      },
+      {
+        "gene": "PRSS1",
+        "match": "24%"
+      },
+      {
+        "gene": "BRCA2",
+        "match": "23%"
+      },
+      {
+        "gene": "BRCA1",
+        "match": "23%"
+      },
+      {
+        "gene": "TP53",
+        "match": "23%"
+      },
+      {
+        "gene": "ATM",
+        "match": "23%"
+      },
+      {
+        "gene": "MLL3",
+        "match": "23%"
+      },
+      {
+        "gene": "TGFBR2",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID1A",
+        "match": "23%"
+      },
+      {
+        "gene": "SF3B1",
+        "match": "23%"
+      },
+      {
+        "gene": "EPC1",
+        "match": "23%"
+      },
+      {
+        "gene": "ARID2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL1A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL3A1",
+        "match": "23%"
+      },
+      {
+        "gene": "COL5A2",
+        "match": "23%"
+      },
+      {
+        "gene": "COL6A3",
+        "match": "23%"
+      },
+      {
+        "gene": "FN1",
+        "match": "23%"
+      },
+      {
+        "gene": "ITGA3",
+        "match": "23%"
+      },
+      {
+        "gene": "MET",
+        "match": "23%"
+      },
+      {
+        "gene": "FBN1",
+        "match": "23%"
+      },
+      {
+        "gene": "BGN",
+        "match": "23%"
+      },
+      {
+        "gene": "PRKDC",
+        "match": "23%"
+      },
+      {
+        "gene": "HNF4A",
+        "match": "23%"
+      },
+      {
+        "gene": "ALK",
+        "match": "23%"
+      },
+      {
+        "gene": "NRG1",
+        "match": "23%"
+      },
+      {
+        "gene": "BRAF",
+        "match": "23%"
+      },
+      {
+        "gene": "EGFR",
+        "match": "23%"
+      },
+      {
+        "gene": "RET",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK1",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK2",
+        "match": "23%"
+      },
+      {
+        "gene": "NTRK3",
+        "match": "23%"
+      },
+      {
+        "gene": "LRP1B",
+        "match": "23%"
+      },
+      {
+        "gene": "PTPRT",
+        "match": "23%"
+      },
+      {
+        "gene": "FHIT",
+        "match": "23%"
+      },
+      {
+        "gene": "ZFHX3",
+        "match": "23%"
+      },
+      {
+        "gene": "AFF3",
+        "match": "23%"
+      },
+      {
+        "gene": "PREX2",
+        "match": "23%"
+      },
+      {
+        "gene": "LPP",
+        "match": "23%"
+      },
+      {
+        "gene": "ZNF521",
+        "match": "23%"
+      },
+      {
+        "gene": "EBF1",
+        "match": "23%"
+      },
+      {
+        "gene": "RAD51B",
+        "match": "23%"
+      },
+      {
+        "gene": "FOXP1",
+        "match": "23%"
+      },
+      {
+        "gene": "GRIN2A",
+        "match": "23%"
+      },
+      {
+        "gene": "ZIM2",
+        "match": "23%"
+      },
+      {
+        "gene": "MAP2K4",
+        "match": "23%"
+      },
+      {
+        "gene": "NALCN",
+        "match": "23%"
+      },
+      {
+        "gene": "SLC16A4",
+        "match": "23%"
+      },
+      {
+        "gene": "MAGEA6",
+        "match": "23%"
+      },
+      {
+        "gene": "KRAS",
+        "match": "19%"
+      },
+      {
+        "gene": "SMAD4",
+        "match": "19%"
+      },
+      {
+        "gene": "PALB2",
+        "match": "17%"
+      }
+    ]
+  }
+]
