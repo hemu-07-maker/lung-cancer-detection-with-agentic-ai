@@ -1,0 +1,610 @@
+{
+  "1": {
+    "subject_id": 1,
+    "symptoms": {
+      "abdominal discomfort": {
+        "symptom_start_date": "2022-04-03",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "474 days",
+        "explanation": "Grouped from: abdominal discomfort, tender abdomen, abdominal pain",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "unexplained weight loss": {
+        "symptom_start_date": "2022-03-13",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "495 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      },
+      "jaundice": {
+        "symptom_start_date": "2022-04-01",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "476 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      },
+      "nausea": {
+        "symptom_start_date": "2022-04-09",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "468 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      },
+      "fatigue": {
+        "symptom_start_date": "2022-02-20",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "516 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      },
+      "dark urine": {
+        "symptom_start_date": "2023-07-17",
+        "symptom_presented_date": "2023-07-21",
+        "reflection_duration": "4 days",
+        "explanation": "Grouped from: dark urine",
+        "match_with": "jaundice (itching, dark urine)",
+        "match_score": 0.784
+      }
+    }
+  },
+  "2": {
+    "subject_id": 2,
+    "symptoms": {}
+  },
+  "3": {
+    "subject_id": 3,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2023-06-22",
+        "symptom_presented_date": "2023-07-22",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      }
+    }
+  },
+  "4": {
+    "subject_id": 4,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2022-12-23",
+        "symptom_presented_date": "2023-01-22",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      },
+      "nausea": {
+        "symptom_start_date": "2023-01-01",
+        "symptom_presented_date": "2023-01-22",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      }
+    }
+  },
+  "5": {
+    "subject_id": 5,
+    "symptoms": {
+      "abdominal discomfort": {
+        "symptom_start_date": "2022-12-01",
+        "symptom_presented_date": "2023-01-30",
+        "reflection_duration": "60 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "jaundice": {
+        "symptom_start_date": "2023-01-09",
+        "symptom_presented_date": "2023-01-30",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      },
+      "dark urine": {
+        "symptom_start_date": "2023-01-20",
+        "symptom_presented_date": "2023-01-30",
+        "reflection_duration": "10 days",
+        "explanation": "Grouped from: dark urine",
+        "match_with": "jaundice (itching, dark urine)",
+        "match_score": 0.784
+      }
+    }
+  },
+  "6": {
+    "subject_id": 6,
+    "symptoms": {
+      "abdominal pain": {
+        "symptom_start_date": "2023-06-18",
+        "symptom_presented_date": "2023-07-30",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: abdominal pain",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.918
+      },
+      "unintentional weight loss": {
+        "symptom_start_date": "2023-06-18",
+        "symptom_presented_date": "2023-07-30",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: unintentional weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.764
+      },
+      "nausea": {
+        "symptom_start_date": "2023-07-30",
+        "symptom_presented_date": "2023-07-30",
+        "reflection_duration": "0 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      },
+      "dark urine": {
+        "symptom_start_date": "2023-07-30",
+        "symptom_presented_date": "2023-07-30",
+        "reflection_duration": "0 days",
+        "explanation": "Grouped from: dark urine",
+        "match_with": "jaundice (itching, dark urine)",
+        "match_score": 0.784
+      }
+    }
+  },
+  "7": {
+    "subject_id": 7,
+    "symptoms": {}
+  },
+  "8": {
+    "subject_id": 8,
+    "symptoms": {}
+  },
+  "9": {
+    "subject_id": 9,
+    "symptoms": {
+      "increased thirst": {
+        "symptom_start_date": "2022-12-22",
+        "symptom_presented_date": "2023-02-20",
+        "reflection_duration": "60 days",
+        "explanation": "Grouped from: increased thirst",
+        "match_with": "new-onset diabetes (thirst, urination)",
+        "match_score": 0.702
+      }
+    }
+  },
+  "10": {
+    "subject_id": 10,
+    "symptoms": {
+      "lower back pain": {
+        "symptom_start_date": "2023-01-14",
+        "symptom_presented_date": "2023-02-25",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: lower back pain",
+        "match_with": "upper abdominal/back pain",
+        "match_score": 0.721
+      }
+    }
+  },
+  "11": {
+    "subject_id": 11,
+    "symptoms": {
+      "nausea": {
+        "symptom_start_date": "2022-12-01",
+        "symptom_presented_date": "2023-03-01",
+        "reflection_duration": "90 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      },
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-01-18",
+        "symptom_presented_date": "2023-03-01",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "jaundice": {
+        "symptom_start_date": "2023-02-15",
+        "symptom_presented_date": "2023-03-01",
+        "reflection_duration": "14 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      }
+    }
+  },
+  "12": {
+    "subject_id": 12,
+    "symptoms": {
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-04-12",
+        "symptom_presented_date": "2023-05-12",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "unexplained weight loss": {
+        "symptom_start_date": "2023-04-12",
+        "symptom_presented_date": "2023-05-12",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      },
+      "jaundice": {
+        "symptom_start_date": "2023-05-05",
+        "symptom_presented_date": "2023-05-12",
+        "reflection_duration": "7 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      },
+      "fatigue": {
+        "symptom_start_date": "2023-04-28",
+        "symptom_presented_date": "2023-05-12",
+        "reflection_duration": "14 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      }
+    }
+  },
+  "13": {
+    "subject_id": 13,
+    "symptoms": {}
+  },
+  "14": {
+    "subject_id": 14,
+    "symptoms": {
+      "indigestion": {
+        "symptom_start_date": "2022-12-15",
+        "symptom_presented_date": "2023-03-15",
+        "reflection_duration": "90 days",
+        "explanation": "Grouped from: indigestion",
+        "match_with": "indigestion",
+        "match_score": 1.0
+      },
+      "bloating": {
+        "symptom_start_date": "2023-01-14",
+        "symptom_presented_date": "2023-03-15",
+        "reflection_duration": "60 days",
+        "explanation": "Grouped from: bloating",
+        "match_with": "bloating",
+        "match_score": 1.0
+      }
+    }
+  },
+  "15": {
+    "subject_id": 15,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2023-02-26",
+        "symptom_presented_date": "2023-03-28",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      },
+      "chest discomfort": {
+        "symptom_start_date": "2023-03-14",
+        "symptom_presented_date": "2023-03-28",
+        "reflection_duration": "14 days",
+        "explanation": "Grouped from: chest discomfort",
+        "match_with": "abdominal discomfort",
+        "match_score": 0.707
+      }
+    }
+  },
+  "16": {
+    "subject_id": 16,
+    "symptoms": {}
+  },
+  "17": {
+    "subject_id": 17,
+    "symptoms": {
+      "chest discomfort": {
+        "symptom_start_date": "2023-05-11",
+        "symptom_presented_date": "2023-07-10",
+        "reflection_duration": "60 days",
+        "explanation": "Grouped from: chest discomfort",
+        "match_with": "abdominal discomfort",
+        "match_score": 0.707
+      }
+    }
+  },
+  "19": {
+    "subject_id": 19,
+    "symptoms": {}
+  },
+  "20": {
+    "subject_id": 20,
+    "symptoms": {
+      "unexplained weight loss": {
+        "symptom_start_date": "2023-03-29",
+        "symptom_presented_date": "2023-05-10",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      },
+      "fatigue": {
+        "symptom_start_date": "2023-04-05",
+        "symptom_presented_date": "2023-05-10",
+        "reflection_duration": "35 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      },
+      "jaundice": {
+        "symptom_start_date": "2023-04-12",
+        "symptom_presented_date": "2023-05-10",
+        "reflection_duration": "28 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      }
+    }
+  },
+  "78": {
+    "subject_id": 78,
+    "symptoms": {
+      "nausea": {
+        "symptom_start_date": "2023-05-07",
+        "symptom_presented_date": "2023-05-14",
+        "reflection_duration": "7 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      }
+    }
+  },
+  "45": {
+    "subject_id": 45,
+    "symptoms": {
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-04-20",
+        "symptom_presented_date": "2023-06-18",
+        "reflection_duration": "59 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "unexplained weight loss": {
+        "symptom_start_date": "2023-04-18",
+        "symptom_presented_date": "2023-05-18",
+        "reflection_duration": "30 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      }
+    }
+  },
+  "233": {
+    "subject_id": 233,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2023-05-16",
+        "symptom_presented_date": "2023-05-20",
+        "reflection_duration": "4 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      }
+    }
+  },
+  "198": {
+    "subject_id": 198,
+    "symptoms": {}
+  },
+  "150": {
+    "subject_id": 150,
+    "symptoms": {
+      "indigestion": {
+        "symptom_start_date": "2023-05-11",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: indigestion",
+        "match_with": "indigestion",
+        "match_score": 1.0
+      },
+      "bloating": {
+        "symptom_start_date": "2023-05-11",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: bloating",
+        "match_with": "bloating",
+        "match_score": 1.0
+      },
+      "nausea": {
+        "symptom_start_date": "2023-05-11",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      }
+    }
+  },
+  "87": {
+    "subject_id": 87,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2023-05-25",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "7 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      },
+      "jaundice": {
+        "symptom_start_date": "2023-05-28",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "4 days",
+        "explanation": "Grouped from: jaundice",
+        "match_with": "jaundice",
+        "match_score": 1.0
+      },
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-06-01",
+        "symptom_presented_date": "2023-06-01",
+        "reflection_duration": "0 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      }
+    }
+  },
+  "60": {
+    "subject_id": 60,
+    "symptoms": {
+      "lower back pain radiating to the legs": {
+        "symptom_start_date": "2023-06-04",
+        "symptom_presented_date": "2023-06-18",
+        "reflection_duration": "14 days",
+        "explanation": "Grouped from: lower back pain radiating to the legs",
+        "match_with": "upper abdominal/back pain",
+        "match_score": 0.72
+      }
+    }
+  },
+  "124": {
+    "subject_id": 124,
+    "symptoms": {}
+  },
+  "209": {
+    "subject_id": 209,
+    "symptoms": {
+      "unexplained weight loss": {
+        "symptom_start_date": "2023-05-20",
+        "symptom_presented_date": "2023-07-01",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      },
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-06-17",
+        "symptom_presented_date": "2023-07-01",
+        "reflection_duration": "14 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "fatigue": {
+        "symptom_start_date": "2023-05-20",
+        "symptom_presented_date": "2023-07-01",
+        "reflection_duration": "42 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      }
+    }
+  },
+  "276": {
+    "subject_id": 276,
+    "symptoms": {}
+  },
+  "95": {
+    "subject_id": 95,
+    "symptoms": {}
+  },
+  "132": {
+    "subject_id": 132,
+    "symptoms": {}
+  },
+  "50": {
+    "subject_id": 50,
+    "symptoms": {}
+  },
+  "190": {
+    "subject_id": 190,
+    "symptoms": {
+      "abdominal discomfort": {
+        "symptom_start_date": "2023-06-12",
+        "symptom_presented_date": "2023-07-10",
+        "reflection_duration": "28 days",
+        "explanation": "Grouped from: abdominal discomfort",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.863
+      },
+      "nausea": {
+        "symptom_start_date": "2023-06-12",
+        "symptom_presented_date": "2023-07-10",
+        "reflection_duration": "28 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      }
+    }
+  },
+  "142": {
+    "subject_id": 142,
+    "symptoms": {
+      "fatigue": {
+        "symptom_start_date": "2023-07-07",
+        "symptom_presented_date": "2023-07-12",
+        "reflection_duration": "5 days",
+        "explanation": "Grouped from: fatigue",
+        "match_with": "fatigue",
+        "match_score": 1.0
+      }
+    }
+  },
+  "278": {
+    "subject_id": 278,
+    "symptoms": {}
+  },
+  "71": {
+    "subject_id": 71,
+    "symptoms": {}
+  },
+  "63": {
+    "subject_id": 63,
+    "symptoms": {
+      "abdominal pain": {
+        "symptom_start_date": "2023-06-29",
+        "symptom_presented_date": "2023-07-20",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: abdominal pain",
+        "match_with": "severe abdominal pain",
+        "match_score": 0.918
+      },
+      "nausea": {
+        "symptom_start_date": "2023-06-29",
+        "symptom_presented_date": "2023-07-20",
+        "reflection_duration": "21 days",
+        "explanation": "Grouped from: nausea",
+        "match_with": "nausea/vomiting",
+        "match_score": 0.887
+      }
+    }
+  },
+  "89": {
+    "subject_id": 89,
+    "symptoms": {
+      "night sweats": {
+        "symptom_start_date": "2023-06-22",
+        "symptom_presented_date": "2023-07-20",
+        "reflection_duration": "28 days",
+        "explanation": "Grouped from: night sweats",
+        "match_with": "night sweats",
+        "match_score": 1.0
+      },
+      "unexplained weight loss": {
+        "symptom_start_date": "2023-06-22",
+        "symptom_presented_date": "2023-07-20",
+        "reflection_duration": "28 days",
+        "explanation": "Grouped from: unexplained weight loss",
+        "match_with": "weight loss",
+        "match_score": 0.793
+      }
+    }
+  }
+}

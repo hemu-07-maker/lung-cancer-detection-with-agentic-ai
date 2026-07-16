@@ -1,0 +1,1576 @@
+{
+  "KRAS": [
+    {
+      "symptom": "upper abdominal pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "jaundice (itching, dark urine)",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "new-onset diabetes (thirst, urination)",
+      "timeline": "4-6 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    }
+  ],
+  "TP53": [
+    {
+      "symptom": "recurrent epigastric pain (pancreatitis)",
+      "timeline": "2-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "early-onset diabetes",
+      "timeline": "3-5 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "abdominal discomfort",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "CDKN2A": [
+    {
+      "symptom": "severe abdominal pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "nausea/vomiting",
+      "timeline": "2-3 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "greasy stools (steatorrhea)",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "night sweats",
+      "timeline": "3-5 months",
+      "probability": 0.45
+    },
+    {
+      "symptom": "bloating",
+      "timeline": "2-4 months",
+      "probability": 0.65
+    }
+  ],
+  "SMAD4": [
+    {
+      "symptom": "general fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "abdominal pain",
+      "timeline": "2-3 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "new-onset diabetes",
+      "timeline": "4-6 months",
+      "probability": 0.55
+    }
+  ],
+  "ATM": [
+    {
+      "symptom": "upper abdominal pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "obstructive jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    }
+  ],
+  "BRCA2": [
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "bloating",
+      "timeline": "2-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "mild jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    }
+  ],
+  "BRCA1": [
+    {
+      "symptom": "abdominal fullness",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "bloating",
+      "timeline": "2-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "PALB2": [
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "blood sugar changes",
+      "timeline": "4-6 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "abdominal discomfort",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "PRSS1": [
+    {
+      "symptom": "bloating",
+      "timeline": "2-4 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "indigestion",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    }
+  ],
+  "MLL3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "TGFBR2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ARID1A": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "SF3B1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "EPC1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ARID2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "COL1A1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "COL1A2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "COL3A1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "COL5A2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "COL6A3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "FN1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ITGA3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "MET": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "FBN1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "BGN": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "PRKDC": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "HNF4A": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ALK": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "NRG1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "BRAF": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "EGFR": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "RET": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "NTRK1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "NTRK2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "NTRK3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "LRP1B": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "PTPRT": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "FHIT": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ZFHX3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "AFF3": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "PREX2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "LPP": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ZNF521": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "EBF1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "RAD51B": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "FOXP1": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "GRIN2A": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "ZIM2": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "MAP2K4": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "NALCN": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "SLC16A4": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ],
+  "MAGEA6": [
+    {
+      "symptom": "upper abdominal/back pain",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "fatigue",
+      "timeline": "3-5 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "anorexia",
+      "timeline": "3-4 months",
+      "probability": 0.55
+    },
+    {
+      "symptom": "nausea",
+      "timeline": "2-3 months",
+      "probability": 0.75
+    },
+    {
+      "symptom": "weight loss",
+      "timeline": "4-6 months",
+      "probability": 0.65
+    },
+    {
+      "symptom": "jaundice",
+      "timeline": "3-4 months",
+      "probability": 0.65
+    }
+  ]
+}

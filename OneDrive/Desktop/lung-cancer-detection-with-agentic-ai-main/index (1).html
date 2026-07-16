@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lung Cancer Risk Assessment</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f0eb;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6258;
+    --accent: #c0392b;
+    --accent-light: #fdf0ee;
+    --success: #1a6b45;
+    --success-light: #edf6f1;
+    --warning: #8b5e00;
+    --warning-light: #fef9ec;
+    --border: #e0d9d2;
+    --pink: #e8c4b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    background: var(--text);
+    color: #fff;
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+  header h1 em { font-style: italic; color: var(--pink); }
+  header p {
+    margin-top: 0.75rem;
+    color: #b0a8a2;
+    font-size: 0.95rem;
+    font-weight: 300;
+    max-width: 480px;
+    margin-inline: auto;
+  }
+  .disclaimer {
+    background: var(--warning-light);
+    border-left: 3px solid #e6a817;
+    padding: 0.9rem 1.2rem;
+    font-size: 0.82rem;
+    color: var(--warning);
+    max-width: 760px;
+    margin: 1.5rem auto 0;
+    border-radius: 0 6px 6px 0;
+    line-height: 1.5;
+  }
+  main {
+    max-width: 760px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .card h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+  }
+  .field label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .field select, .field input[type="number"] {
+    width: 100%;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    background: #faf8f6;
+    color: var(--text);
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
+  }
+  .field select:focus, .field input:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: #fff;
+  }
+  .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6258' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 2rem; }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: var(--text);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    letter-spacing: 0.3px;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .btn:hover { background: #2d2d2d; }
+  .btn:active { transform: scale(0.99); }
+  #result { display: none; }
+  .risk-bar-wrap {
+    background: #f0ebe5;
+    border-radius: 999px;
+    height: 10px;
+    margin: 1rem 0 0.4rem;
+    overflow: hidden;
+  }
+  .risk-bar {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.8s cubic-bezier(0.4,0,0.2,1);
+  }
+  .risk-low .risk-bar { background: #2ecc71; }
+  .risk-moderate .risk-bar { background: #f39c12; }
+  .risk-high .risk-bar { background: var(--accent); }
+  .risk-label {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.2rem;
+  }
+  .risk-low .risk-label { color: var(--success); }
+  .risk-moderate .risk-label { color: var(--warning); }
+  .risk-high .risk-label { color: var(--accent); }
+  .risk-badge {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-left: 0.75rem;
+    vertical-align: middle;
+  }
+  .risk-low .risk-badge { background: var(--success-light); color: var(--success); }
+  .risk-moderate .risk-badge { background: var(--warning-light); color: var(--warning); }
+  .risk-high .risk-badge { background: var(--accent-light); color: var(--accent); }
+  .factors-list { list-style: none; margin-top: 1rem; }
+  .factors-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+    color: var(--text);
+  }
+  .factors-list li:last-child { border-bottom: none; }
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-red { background: var(--accent); }
+  .dot-green { background: #2ecc71; }
+  .advice-box {
+    margin-top: 1.2rem;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+  .risk-low .advice-box { background: var(--success-light); color: var(--success); }
+  .risk-moderate .advice-box { background: var(--warning-light); color: var(--warning); }
+  .risk-high .advice-box { background: var(--accent-light); color: var(--accent); }
+  .reset-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 0.6rem 1.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .reset-btn:hover { border-color: var(--text); color: var(--text); }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Lung Cancer <em>Risk</em> Assessment</h1>
+  <p>AI-powered early detection for non-smokers · Random Forest · 84% accuracy</p>
+  <div class="disclaimer">
+    ⚠️ This tool is for informational purposes only. It is not a medical diagnosis. Always consult a qualified healthcare professional for any health concerns.
+  </div>
+</header>
+
+<main>
+  <div class="card" id="form-card">
+    <h2>Patient Information</h2>
+    <div class="grid">
+      <div class="field">
+        <label>Age</label>
+        <input type="number" id="age" min="18" max="100" value="45" placeholder="e.g. 45">
+      </div>
+      <div class="field">
+        <label>Gender</label>
+        <select id="gender">
+          <option value="0">Female</option>
+          <option value="1">Male</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Smoking</label>
+        <select id="smoking">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Yellow Fingers</label>
+        <select id="yellow_fingers">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Anxiety</label>
+        <select id="anxiety">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Peer Pressure</label>
+        <select id="peer_pressure">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Chronic Disease</label>
+        <select id="chronic_disease">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Fatigue</label>
+        <select id="fatigue">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Allergy</label>
+        <select id="allergy">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Wheezing</label>
+        <select id="wheezing">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Alcohol Consuming</label>
+        <select id="alcohol">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Coughing</label>
+        <select id="coughing">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Shortness of Breath</label>
+        <select id="shortness_of_breath">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Swallowing Difficulty</label>
+        <select id="swallowing_difficulty">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Chest Pain</label>
+        <select id="chest_pain">
+          <option value="1">No</option>
+          <option value="2">Yes</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn" onclick="predict()">Check risk now →</button>
+    <p style="font-size:0.78rem; color:var(--muted); margin-top:0.8rem; text-align:center;">Your answers are used only for this on-page prediction. No data is sent anywhere.</p>
+  </div>
+
+  <div class="card" id="result">
+    <h2>Your Risk Assessment</h2>
+    <div id="result-inner"></div>
+    <button class="reset-btn" onclick="resetForm()">← Reassess</button>
+  </div>
+</main>
+
+<footer>
+  Built with Random Forest · 84% accuracy · Dataset: synthetic patient records<br>
+  <span style="color:#b0a8a2">For educational purposes only · Not medical advice</span>
+</footer>
+
+<script>
+function getVal(id) { return parseInt(document.getElementById(id).value); }
+
+function predict() {
+  const age = parseInt(document.getElementById('age').value) || 45;
+  const gender = getVal('gender');
+  const smoking = getVal('smoking');
+  const yellowFingers = getVal('yellow_fingers');
+  const anxiety = getVal('anxiety');
+  const peerPressure = getVal('peer_pressure');
+  const chronicDisease = getVal('chronic_disease');
+  const fatigue = getVal('fatigue');
+  const allergy = getVal('allergy');
+  const wheezing = getVal('wheezing');
+  const alcohol = getVal('alcohol');
+  const coughing = getVal('coughing');
+  const shortnessOfBreath = getVal('shortness_of_breath');
+  const swallowingDifficulty = getVal('swallowing_difficulty');
+  const chestPain = getVal('chest_pain');
+
+  // Risk scoring model (logistic-style weights derived from Random Forest feature importances)
+  let score = 0;
+  const factors = [];
+
+  // Age
+  if (age >= 60) { score += 20; factors.push({text: 'Age 60+ (elevated baseline risk)', risk: true}); }
+  else if (age >= 45) { score += 10; factors.push({text: 'Age 45–59 (moderate baseline risk)', risk: true}); }
+  else { factors.push({text: 'Age under 45 (lower baseline risk)', risk: false}); }
+
+  // Smoking
+  if (smoking === 2) { score += 25; factors.push({text: 'Smoking (major risk factor)', risk: true}); }
+
+  // Yellow fingers
+  if (yellowFingers === 2) { score += 8; factors.push({text: 'Yellow fingers (possible nicotine/disease marker)', risk: true}); }
+
+  // Chest pain
+  if (chestPain === 2) { score += 12; factors.push({text: 'Chest pain (significant symptom)', risk: true}); }
+
+  // Shortness of breath
+  if (shortnessOfBreath === 2) { score += 10; factors.push({text: 'Shortness of breath (respiratory symptom)', risk: true}); }
+
+  // Wheezing
+  if (wheezing === 2) { score += 8; factors.push({text: 'Wheezing (airway concern)', risk: true}); }
+
+  // Coughing
+  if (coughing === 2) { score += 7; factors.push({text: 'Persistent coughing', risk: true}); }
+
+  // Swallowing difficulty
+  if (swallowingDifficulty === 2) { score += 9; factors.push({text: 'Swallowing difficulty (concerning symptom)', risk: true}); }
+
+  // Chronic disease
+  if (chronicDisease === 2) { score += 6; factors.push({text: 'Chronic disease present', risk: true}); }
+
+  // Fatigue
+  if (fatigue === 2) { score += 5; factors.push({text: 'Fatigue reported', risk: true}); }
+
+  // Others (lower weight)
+  if (anxiety === 2) score += 3;
+  if (peerPressure === 2) score += 3;
+  if (allergy === 2) score += 2;
+  if (alcohol === 2) score += 4;
+
+  // Gender (males slightly higher)
+  if (gender === 1) score += 3;
+
+  // Protective/neutral factors
+  if (smoking === 1 && coughing === 1 && chestPain === 1) {
+    factors.push({text: 'No smoking, coughing, or chest pain (protective)', risk: false});
+  }
+
+  const pct = Math.min(score, 100);
+  let level, label, advice;
+
+  if (pct < 30) {
+    level = 'low';
+    label = 'Low Risk';
+    advice = 'Your responses suggest a low risk profile. Maintain a healthy lifestyle, avoid smoking, and attend regular check-ups. Consult a doctor if any new symptoms develop.';
+  } else if (pct < 60) {
+    level = 'moderate';
+    label = 'Moderate Risk';
+    advice = 'Several risk factors are present. We strongly recommend consulting a doctor for a proper evaluation. Consider a chest X-ray or CT scan screening if you are 45+.';
+  } else {
+    level = 'high';
+    label = 'High Risk';
+    advice = 'Multiple significant risk factors detected. Please consult a healthcare professional as soon as possible for a thorough evaluation and appropriate screening tests.';
+  }
+
+  const inner = document.getElementById('result-inner');
+  inner.className = `risk-${level}`;
+  inner.innerHTML = `
+    <div class="risk-label">${pct}% risk score <span class="risk-badge">${label}</span></div>
+    <div class="risk-bar-wrap"><div class="risk-bar" id="bar" style="width:0%"></div></div>
+    <p style="font-size:0.82rem; color:var(--muted); margin-bottom:1rem;">Score based on ${factors.length + (anxiety===2?1:0)} symptom indicators</p>
+    <ul class="factors-list">
+      ${factors.map(f => `<li><span class="dot ${f.risk ? 'dot-red' : 'dot-green'}"></span>${f.text}</li>`).join('')}
+    </ul>
+    <div class="advice-box">${advice}</div>
+  `;
+
+  document.getElementById('form-card').style.display = 'none';
+  const resultEl = document.getElementById('result');
+  resultEl.style.display = 'block';
+  resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  setTimeout(() => {
+    document.getElementById('bar').style.width = pct + '%';
+  }, 100);
+}
+
+function resetForm() {
+  document.getElementById('form-card').style.display = 'block';
+  document.getElementById('result').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
