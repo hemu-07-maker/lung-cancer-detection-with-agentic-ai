@@ -73,13 +73,9 @@ The app runs fully in the browser — no Flask backend, no server, no installati
 
 ## 🚀 Live Demo
 
-👉 [https://hemu-08.github.io/lung-cancer-detection/](https://hemu-08.github.io/lung-cancer-detection/)
+http://127.0.0.1:5000/
 
-To enable GitHub Pages:
-1. Go to your repo → **Settings** → **Pages**
-2. Set source to `master` branch
-3. Click **Save**
-
+live website demo
 ---
 
 ## 🛠️ Tech Stack
