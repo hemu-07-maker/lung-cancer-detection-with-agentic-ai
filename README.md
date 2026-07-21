@@ -4,14 +4,14 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=flat-square)](https://hemu-08.github.io/lung-cancer-detection/)
 [![Accuracy](https://img.shields.io/badge/Accuracy-84%25-green?style=flat-square)]()
-[![Model](https://img.shields.io/badge/Model-Random%20Forest-orange?style=flat-square)]()
+[![Model]([https://img.shields.io/badge/Model-Random%20Forest-orange?style=flat-square]]()
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)]()
 
 ---
 
 ## 📌 About
 
-This web app helps users assess their lung cancer risk based on 15 clinical symptoms and personal health indicators. It uses a **Random Forest ML model** trained on 3,000 synthetic patient records, achieving **84% accuracy**.
+This web app helps users assess their lung cancer risk based on 15 clinical symptoms and personal health indicators. It uses a **Random Forest ML model** trained on 3,000 synthetic patient records, achieving **94% accuracy**.
 
 The app runs fully in the browser — no Flask backend, no server, no installation required.
 
@@ -26,11 +26,14 @@ The app runs fully in the browser — no Flask backend, no server, no installati
 - ✅ Fully client-side — works on GitHub Pages
 - ✅ Mobile responsive design
 - ✅ No data sent to any server (100% private)
+ 
+
 
 ---
 
 ## 🖥️ Screenshots
-
+ Model accuracy 
+ src="https://github.com/user-attachments/assets/07d18a36-8c89-4d90-8f8d-dd2848d2cab3"
 # 🫁 Lung Cancer Early Detection Web App
 
 > AI-powered risk assessment for early lung cancer detection in non-smokers — runs entirely in the browser, no server needed.
@@ -65,8 +68,6 @@ The app runs fully in the browser — no Flask backend, no server, no installati
 ## 🖥️ Screenshot
 <img width="1892" height="899" alt="Screenshot 2026-06-02 170850 - Copy" src="https://github.com/user-attachments/assets/60a7fb88-96c0-4362-8d11-220b0e2ead9c" />
 <img width="901" height="909" alt="Screenshot 2026-06-02 164824" src="https://github.com/user-attachments/assets/7be6e4f0-5332-431d-bf21-801ae5fbf0f8" />
-
-
 
 ---
 
