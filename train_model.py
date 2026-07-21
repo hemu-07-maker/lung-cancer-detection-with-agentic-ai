@@ -39,7 +39,7 @@ risk = (
     (data["CHRONIC DISEASE"] == 2) * 1 +
     (data["YELLOW_FINGERS"] == 2) * 1
 )
-data["LUNG_CANCER"] = (risk + np.random.normal(0, 1, n) > 5).astype(int)
+data["LUNG_CANCER"] = (risk + np.random.normal(0, 0.5, n) > 5).astype(int)
 
 X = data.drop("LUNG_CANCER", axis=1)
 y = data["LUNG_CANCER"]
